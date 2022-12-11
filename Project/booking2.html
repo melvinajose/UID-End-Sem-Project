@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <title>Voyage Booking page</title>
+
+ 
+
+    <!-- font awesome cdn link  --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="onestyle.css">
+
+</head>
+<body background ="images/btrip2.jpg" style = "background-repeat:no-repeat;background-size:100% 100% ">
+    
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        
+        <a href="index.html">packages</a>
+        
+        <a href="#gallery">gallery</a>
+        
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>!Go Pack Your Bags Now!</p>
+        
+    </div>
+    
+    
+
+   
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="container" id="container">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+<!--Home section--->
+		
+ <div class="blocks">
+    <!-- partial:index.partial.html -->
+        <div class="left">
+            <div class="triptype">
+                
+                <button type="button" class="one-way-button" >Trip Map</button>
+            
+            </div>
+            <p>From</p>
+            <div class="select">
+                <div class="selectBtn" data-type="firstOption"><i class="fas fa-map-marker-alt"></i><input type="text" id="from" name="text" ></div>
+                <div class="selectDropdown">
+                    <div class="option" data-type="firstOption"><i class="fas fa-map-marker-alt"></i>New Jearsy</div>
+                    <div class="option" data-type="secondOption"><i class="fas fa-map-marker-alt"></i>New York City</div>
+                    <div class="option" data-type="thirdOption"><i class="fas fa-map-marker-alt"></i>Los Angeles</div>
+                    <div class="option" data-type="thirdOption"><i class="fas fa-map-marker-alt"></i>Sanfrancisco</div>
+                    <div class="option" data-type="thirdOption"><i class="fas fa-map-marker-alt"></i>Virginia</div>
+                </div>
+            </div>
+            <p>To</p>
+            <div class="select">
+                <div class="selectBtn" data-type="firstOption"><i class="fas fa-map-marker-alt"></i><input type="text" id="from" name="text" ></div>
+                <div class="selectDropdown">
+                    <div class="selectBtn" data-type="firstOption"><input type="text" id="from" name="text" ></div>
+                    <div class="option" data-type="firstOption"><i class="fas fa-map-marker-alt"></i>New Jersy</div>
+                    <div class="option" data-type="secondOption"><i class="fas fa-map-marker-alt"></i>New york city</div>
+                    <div class="option" data-type="thirdOption"><i class="fas fa-map-marker-alt"></i>Los Angeles</div>
+                    <div class="option" data-type="thirdOption"><i class="fas fa-map-marker-alt"></i>Sanfrancisco</div>
+                    <div class="option" data-type="thirdOption"><i class="fas fa-map-marker-alt"></i>Virginia</div>
+                    
+                </div>
+            </div>
+            <p>Departure Date</p>
+				<div class="date-input-container">
+					<i class="fas fa-calendar-alt date-icon"></i>
+					<input class="date-input-field " type="date" id="sourcedatepicker">
+				</div>
+				<p>Arrival Date</p>
+				<div class="date-input-container">
+					<i class="fas fa-calendar-alt date-icon"></i>
+					<input class="date-input-field" type="date" id="destinationdatepicker">
+				</div>
+            <p>Passengers</p>
+            <div class="selected">
+                
+                
+                <h2>number of adults<input type="number" id="points" name="points" step="1"></h2>
+                <br>
+                
+                <h2>childern<input type="number" id="points" name="points" step="1"></h2>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="right">
+
+            <div class="image">
+                <img src="images/g-6.jpg" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        
+       <a href="confirm.html"> <button type="button">Book Tickets</button></a>
+    </div>
+ </div>
+
+</section>
+
+
+<!-- book section ends -->
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="index.html" class="btn">see more</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+   
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Established in 2022, Voyage has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers.Our website provide You the best experiance,so that you can have the best vactions of your life</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="https://en.wikipedia.org/wiki/India">india</a>
+            <a href="https://en.wikipedia.org/wiki/USA">USA</a>
+            <a href="https://en.wikipedia.org/wiki/Japan">japan</a>
+            <a href="https://en.wikipedia.org/wiki/France">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="booking2.html">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services1">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box1">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Voyage </span> | all rights reserved! </h1>
+
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="bscript.js"></script>
+
+</body>
+</html>

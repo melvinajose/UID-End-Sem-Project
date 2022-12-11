@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+	<title>Registration</title>
+	
+</head>
+<body bgcolor="#5a748f" text="white">
+<table height="100" >
+		<tr>
+			<th><img align="center" src="https://static.businessworld.in/article/article_extra_large_image/1637209397_kyygyg_Screenshot_2021_11_18_095133.jpg" width="150" height="80"  ></th>
+			<th><h1><I><strong><big>FORUM 2022</big></strong></h1></th></I>
+		</tr>
+	</table>
+	<fieldset >
+<legend><h2 align="center">REGISTRATION FORM</h2></legend>
+	<form>
+  <p>
+    <label for="a"><h3>Username: </label>
+    <input id="a" type="text" placeholder="Enter your name.." required>
+  </p>
+  <p>
+    <label for="b">Password: </label>
+    <input id="b" type="password" required>
+  </p>
+  <p>
+  	<label for="d">Email ID: </label>
+  	<input type="text" id="d" placeholder="eg: abc@gmail.com">
+  </p>
+  <p>
+  	<label for="c">Number: </label>
+  	<input id="c" type="text"pattern="[0-9]{10}" name="Number" placeholder="eg:9876543210"><br>
+  </p>
+  <p>
+
+  	<label for="d">College: </label>
+  	<input id="c" type="text" name="college">
+  </p>
+  Course:
+  <select name="course" id="course">
+			<option value="none" selected disabled hidden>select a course</option>
+			<option value="CSE">CSE </option>
+			<option value="CYS">CYS </option>
+			<option value="AIE">AIE</option>
+			<option value="ECE">ECE</option>
+		</select><br><br>
+  Date Of Birth:
+  <input type="date">
+		<br>
+		<br>
+  Event(s) you want to Participate in:<br>
+  <input type="checkbox" name="event" id="Hackathon">
+		<label for="Hackathon">Hackathon</label>
+		<br>
+		<input type="checkbox" name="event" id="Project">
+		<label for="Project">Project</label> 
+		<br>
+		<input type="checkbox" name="event" id="Paper Presentation">
+		<label for="Paper Presentation">Paper Presentation</label>
+		<br>
+		<input type="checkbox" name="event" id="Web Designing">
+		<label for="Web Designing">Web Designing</label> 
+		<br>
+			<br>
+Upload your Resume:
+		<input type="file" name="upload" id="fileupload">
+		<br>
+		<br>
+			Experience in coding:
+		<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="Range">
+</div>
+		<a href="advertisement.html"><input type="submit" name="submit"></a>
+		<input type="reset" name="reset">
+</h3>
+		
+</fieldset>
+
+</form>
+
+</body>
+</html>

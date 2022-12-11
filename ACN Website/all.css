@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-color: bisque;
+    width: 100%;
+    height: 1200px;
+}
+.navbar{
+    
+    width: 99%;
+    height: 100px;
+    float: left;
+    display: flex;
+    position: static;
+    padding: 10px;
+}
+.logo{
+    background-color: rgb(161, 10, 68);
+    width: 15%;
+    clip-path: polygon(0 0, 100% 0, 75% 50%, 100% 100%, 0 100%);
+}
+.icon{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.icon h1{
+    color: bisque;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.menu{
+    background-color: rgb(161, 10, 68);
+    width: 70%;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    clip-path: polygon(6% 0, 94% 0, 100% 50%, 94% 100%, 5% 100%, 0% 50%);
+}
+.mit{
+    padding-left: 280px;
+}
+.menu ul{
+    list-style: none;
+    float: left;
+    display: flex;
+}
+.menu ul li{
+    padding-left: 40px;
+}
+.menu ul li a:hover{
+    color: aquamarine;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+#map{
+    width: 15%;
+    height: 100px;
+    background-color: rgb(161, 10, 68);
+    clip-path: polygon(25% 50%, 0 0, 100% 0, 100% 100%, 0 100%);
+    border: none;
+    font-size: 40px;
+    padding-left: 25px;
+    
+    font-weight: bold;
+}
+
+#map :hover{
+    transform: translateY(-5px);
+    color: aquamarine;
+}
+#map a{
+    text-decoration: none;
+    color: aliceblue;
+}
+video{
+    padding-top: 20px;
+}
+.image img{
+    padding-top: 20px;
+}
+form{
+    padding-left: 600px;
+    padding-top:110px;
+}
+.hdng{
+    background-color: rgb(161, 10, 68);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial;
+    text-align: center;
+    color: antiquewhite;
+}
+.frm{
+    margin: 10px;
+    backface-visibility: visible;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 700px;
+    height: 800px;
+    border-style: groove;
+    border-color: black;
+    
+}
+input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    
+}
+input{
+    width: 300px;
+    height: 40px;
+}
+select{
+    width: 300px;
+    height: 40px;
+}
+.su{
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.mmm{
+    padding: 10px;
+}
+.venue h2 pre{
+    font-weight: bold;
+}

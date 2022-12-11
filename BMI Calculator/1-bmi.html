@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple BMI Calculator</title>
+    <link rel="stylesheet" href="1-bmi.css">
+    <script src="2-bmi.js"></script>
+  </head>
+  <body>
+    <H1>BMI Calculator</H1>
+    <form id="form" onsubmit="return calcBMI();">
+      <div class="label">System:</div>
+      <div class="row">
+        <label>
+          <input type="radio" id="metric" name="measure" onchange="measureBMI()" checked/> Metric
+        </label>
+        <label>
+          <input type="radio" id="imperial" name="measure" onchange="measureBMI()"/> Imperial
+        </label>
+      </div>
+
+      <div class="label">
+        Weight (<span id="weight-unit">KG</span>):
+      </div>
+      <div class="row">
+        <input id="weight" type="number" min="1" max="635" required/>
+      </div>
+
+      <div class="label">Height (<span id="height-unit">CM</span>):</div>
+      <div class="row">
+        <input id="height" type="number" min="54" max="272" required/>
+      </div>
+
+      <input type="submit" value="Calculate BMI" id="submit"/>
+      <span id="results"></span>
+    </form>
+  </body>
+</html>
